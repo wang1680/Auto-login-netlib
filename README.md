@@ -13,6 +13,7 @@
 2. 在Actions菜单允许 `I understand my workflows, go ahead and enable them` 按钮
 
 3. 在 GitHub 仓库的 Settings → Secrets and variables → Actions 中添加以下环境变量
+-  账号密码之间用英文冒号分隔，账号与账号之间英文逗号分隔
 - `ACCOUNTS`  Netlib账户(必填)，格式(单账号)：user:pass   格式(多账号)：user1:pass1,user2:pass2 
 
 - telegra为可选环境变量,不需要通知可不填写
